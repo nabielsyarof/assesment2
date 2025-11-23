@@ -8,9 +8,10 @@
 
 > **Silakan ganti placeholder di bawah dengan nama lengkap dan NIM anggota tim yang sebenarnya.**
 
-- Anggota 1: Nama Lengkap - NIM
-- Anggota 2: Nama Lengkap - NIM
-- Anggota 3: Nama Lengkap - NIM
+- Achmad Varis Abdussalam (2310130001)
+- Muhammad Naufal Ammr Dzakwan (2310130010)
+- Nabiel Syarof Azzaky (2310130012)
+- M. Irfan Janur Gifari (2310130009)
 
 ---
 
@@ -18,51 +19,10 @@
 
 > **Silakan sesuaikan tugas nyata tiap anggota.**
 
-- UI & Desain: Nama A
-- Implementasi Login & SharedPreferences: Nama B
-- State management (Provider) & Feature Activity: Nama C
-- Dokumentasi & README: Nama D
-
----
-
-## Struktur Folder (ringkasan)
-
-```
-/lib
-  ├─ main.dart
-  ├─ pages/
-  │   ├─ register_page.dart
-  │   ├─ login_page.dart
-  │   └─ activity_page.dart
-  ├─ providers/
-  │   ├─ theme_provider.dart
-  │   └─ activity_provider.dart
-  └─ widgets/
-assets/
-  └─ screenshots/
-pubspec.yaml
-README.md
-```
-
-> (Catatan: file yang Anda kirim berada dalam satu file `main.dart`. Di repo sebaiknya pisahkan menjadi beberapa file sesuai struktur di atas.)
-
----
-
-## Cara Menjalankan Proyek (local)
-
-1. Pastikan Flutter SDK sudah terpasang.
-2. Clone repository:
-
-   ```bash
-   git clone <repo-url>
-   cd <repo-folder>
-   flutter pub get
-   flutter run
-   ```
-
-3. Jika ingin menjalankan di emulator/simulator, jalankan emulator lebih dulu.
-
----
+- UI & Desain: Achmad Varis Abdussalam
+- Implementasi Login & SharedPreferences: Muhammad Naufal Ammr Dzakwan
+- State management (Provider) & Feature Activity: M. Irfan Janur Gifari
+- Dokumentasi & README: Nabiel Syarof Azzaky
 
 ## Penjelasan Fitur
 
