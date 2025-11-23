@@ -87,16 +87,11 @@
 
 ## Screenshot
 
-Letakkan screenshot di folder `/assets/screenshots/` lalu sertakan jalur tersebut di `pubspec.yaml`.
-
-Screenshot yang diminta minimal (contoh nama file):
-
-- `login_page.png` — halaman Login
-- `register_page.png` — halaman Register
-- `home_page.png` — halaman Activity/Home
-- `add_item_page.png` — tampilan saat menambah item atau dialog input
-- `light_mode.png` — tampilan aplikasi di Light Mode
-- `dark_mode.png` — tampilan aplikasi di Dark Mode (opsional)
+- `login_page.jpg` — halaman Login
+- `home_page.jpg` — halaman Activity/Home
+- `add_item_page.jpg` — tampilan saat menambah item atau dialog input
+- `light_mode.jpg` — tampilan aplikasi di Light Mode
+- `dark_mode.jpg` — tampilan aplikasi di Dark Mode (opsional)
 
 ## Bagaimana Aplikasi Menyimpan Data
 
