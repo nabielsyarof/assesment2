@@ -6,8 +6,6 @@
 
 ## Daftar Tim
 
-> **Silakan ganti placeholder di bawah dengan nama lengkap dan NIM anggota tim yang sebenarnya.**
-
 - Achmad Varis Abdussalam (2310130001)
 - Muhammad Naufal Ammr Dzakwan (2310130010)
 - Nabiel Syarof Azzaky (2310130012)
@@ -58,8 +56,6 @@
   - `lastLogin` (pada login sukses)
   - `isDark` (preference tema)
 
-- **Catatan keamanan:** `SharedPreferences` cocok untuk menyimpan preferensi dan data ringan, bukan data sensitif yang harus terenkripsi.
-
 ### 4. Implementasi SQLite
 
 - **Status saat ini:** _BELUM diimplementasikan_ di kode yang diberikan. Saat ini daftar kegiatan (activities) disimpan dalam memori menggunakan `ActivityProvider` (list in-memory) sehingga data akan hilang saat aplikasi dimulai ulang.
@@ -89,7 +85,7 @@
 
 ---
 
-## Screenshot (minimal 5 halaman)
+## Screenshot
 
 Letakkan screenshot di folder `/assets/screenshots/` lalu sertakan jalur tersebut di `pubspec.yaml`.
 
@@ -102,56 +98,12 @@ Screenshot yang diminta minimal (contoh nama file):
 - `light_mode.png` — tampilan aplikasi di Light Mode
 - `dark_mode.png` — tampilan aplikasi di Dark Mode (opsional)
 
-**Cara mengambil screenshot di emulator:**
-
-- Android Studio emulator: `More` → `Screenshot`.
-- iOS Simulator: `File` → `Save Screen`.
-
----
-
-## Bagaimana Aplikasi Menyimpan Data (penjelasan)
+## Bagaimana Aplikasi Menyimpan Data
 
 - **SharedPreferences**: digunakan untuk menyimpan preferensi dan data registrasi sederhana (`email`, `fullName`, `password`, `isDark`, `lastLogin`). Data ini bertahan antar sesi aplikasi di perangkat.
 - **Activities (saat ini)**: Disimpan di memory menggunakan `ActivityProvider` pada runtime. Jika aplikasi ditutup atau di-restart, daftar akan hilang.
 - **Rekomendasi**: Untuk persistensi yang benar, implementasikan SQLite (`sqflite`) seperti dijelaskan di atas, atau gunakan opsi penyimpanan berbasis file / backend (API) jika ingin sinkronisasi antar perangkat.
 
----
-
-## Petunjuk Pengumpulan (GitHub link)
-
-1. Buat repository baru di GitHub (mis: `todo-activity-app`).
-2. Tambahkan semua file proyek Flutter ke folder repo lokal.
-3. Pastikan `pubspec.yaml` mencantumkan dependency yang digunakan (`provider`, `shared_preferences`, dan jika implementasi SQLite: `sqflite`, `path`).
-4. Tambahkan folder `assets/screenshots/` dengan minimal 5 screenshot.
-5. Commit & push:
-
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit - ToDo Activity App"
-   git branch -M main
-   git remote add origin https://github.com/<username>/<repo>.git
-   git push -u origin main
-   ```
 
 6. Kirim link GitHub repository sebagai luaran.
-
----
-
-## Catatan Tambahan & Checklist Sebelum Mengumpulkan
-
-- [ ] Ganti placeholder nama & NIM di bagian 'Daftar Tim'.
-- [ ] Pisahkan file `main.dart` menjadi beberapa file sesuai struktur folder untuk keterbacaan.
-- [ ] Jika diminta, implementasikan SQLite dan lakukan migration data (opsional)
-- [ ] Tambahkan screenshot ke `assets/screenshots` dan pastikan path di `pubspec.yaml` sudah benar.
-- [ ] Periksa `README.md` dan lengkapi deskripsi tugas tiap anggota.
-
----
-
-Jika kamu mau, aku bisa:
-
-- Mengubah `ActivityProvider` agar terhubung ke SQLite (aku bisa buatkan contoh file `db_helper.dart` dan ubah provider),
-- Memecah `main.dart` menjadi file-file terpisah (pages/providers),
-- Menyusun commit message & langkah git yang rapi sebelum push.
-
-Tulis saja opsi mana yang ingin kamu minta dan aku akan langsung buatkan filenya di repo (atau contoh kodenya) di sini.
+https://github.com/parisid13/assesment2#
